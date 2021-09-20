@@ -1,0 +1,31 @@
+{
+  "folders": [
+    {
+      "path": "..\\..\\..\\..\\..\\..\\..\\..\\account"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\..\\..\\..\\catalog"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\..\\..\\..\\inventory"
+    },
+    {
+      "name": "rating-service",
+      "path": "..\\..\\..\\..\\..\\..\\.."
+    },
+    {
+      "name": "cart",
+      "path": "..\\..\\..\\..\\..\\..\\..\\..\\cart"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\..\\..\\..\\discoveryserver"
+    },
+    {
+      "path": "..\\..\\..\\..\\..\\..\\..\\..\\..\\java"
+    }
+  ],
+  "settings": {
+    "java.configuration.updateBuildConfiguration": "automatic",
+    "terminal.integrated.sendKeybindingsToShell": true
+  }
+}

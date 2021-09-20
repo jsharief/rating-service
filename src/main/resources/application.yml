@@ -1,0 +1,26 @@
+spring:
+  output:
+    ansi:
+      enabled: always
+  application:
+    name: Java Bee rating Services
+  #Datasource
+  datasource:
+    url: jdbc:mariadb://localhost:3306/rating
+    username: root
+    password: root123
+    driver-class-name: org.mariadb.jdbc.Driver
+    hikari:
+      connection-timeout: 60000
+      maximum-pool-size: 5
+  #JPA
+  jpa:
+    hibernate:
+      ddl-auto: validate
+    properties:
+      hibernate:
+        # dialect: org.hibernate.dialect.MySQL5Dialect
+        storage_engine: innodb
+    #N open-in-view: false
+server:
+  port: 8030
